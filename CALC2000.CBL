@@ -31,6 +31,7 @@
            05  edited-whole-value      pic zz,zzz,zz9.
            05  edited-decimal-value    pic zzz,zzz.99.
            05  edited-intrest-rate     pic zzz,zzz9.9.
+           05  edited-number-of-years  pic zzz,zzz,zz.
 
        procedure division.
 
@@ -67,9 +68,10 @@
 
            move investment-amount to edited-whole-value.
            move yearly-interest-rate to edited-intrest-rate.
+           move number-of-years to edited-number-of-years.
+           move future-value to edited-decimal-value.
            display "-----------------------------------".
            display "Investment Amount = " edited-whole-value.
-           display "Number of Years   = " number-of-years.
+           display "Number of Years   = " edited-number-of-years.
            display "Yearly Interest   = " edited-intrest-rate.
-           move future-value to edited-decimal-value.
            display "Future value      = " edited-decimal-value.
