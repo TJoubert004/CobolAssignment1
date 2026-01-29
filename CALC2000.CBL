@@ -18,18 +18,16 @@
 
        working-storage section.
       
-       01  user-entries.
+       01  input-values.
 
-           05  number-entered              pic 9        value 1.
-           05  investment-amount           pic 99999.
-           05  number-of-years             pic 99.
-           05  yearly-interest-rate        pic 99v9.
+           05  investment-amount       pic 9(7)v99  value 1000.00.
+           05  number-of-years         pic 99       value 10.
+           05  yearly-interest-rate    pic 99v9     value 05.5.
 
        01  work-fields.
 
            05  future-value                pic 9(7)v99.
            05  year-counter                pic 999.
-           05  edited-future-value         pic z,zzz,zzz.99.
 
        procedure division.
 
@@ -71,3 +69,4 @@
                future-value +
                    (future-value * yearly-interest-rate / 100).
            add 1 to year-counter.
+
