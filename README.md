@@ -21,7 +21,7 @@ In this assignment, I implemented the following enterprise computing concepts:
 ## Program Output
 Below is a screenshot of the program execution showing the three calculation phases:
 
-Will paste screenshot here once code is complete and working
+![Program Output](assets/CALC2000_Output.png)
 
 ## Author
 * Tristan Joubert GitHub: [@TJoubert004](https://github.com/TJoubert004)
