@@ -25,4 +25,3 @@ Below is a screenshot of the program execution showing the three calculation pha
 
 ## Author
 * Tristan Joubert GitHub: [@TJoubert004](https://github.com/TJoubert004)
-# CALC2000
